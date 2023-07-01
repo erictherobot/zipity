@@ -7,6 +7,6 @@ license = "MIT"
 description = "A markdown-based micro web framework built in Rust"
 documentation = "https://docs.rs/zipity"
 homepage = "https://ericdavidsmith.com"
-repository = ""
+repository = "https://github.com/erictherobot/zipity"
 
 [dependencies]
