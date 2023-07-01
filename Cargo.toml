@@ -1,0 +1,12 @@
+[package]
+name = "zipity"
+version = "0.0.1"
+edition = "2021"
+authors = ["Eric David Smith <erictherobot@gmail.com>"]
+license = "MIT"
+description = "A markdown-based micro web framework built in Rust"
+documentation = "https://docs.rs/zipity"
+homepage = ""
+repository = ""
+
+[dependencies]
