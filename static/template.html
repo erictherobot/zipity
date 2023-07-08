@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>{{title}}</title>
+    <link rel="canonical" href="{{slug}}" />
+    <meta name="description" content="{{description}}" />
+    <meta name="keywords" content="{{keywords}}" />
+    <meta name="author" content="{{author}}" />
+    <link
+      media="print"
+      onload="this.media='all'"
+      href="./styles.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="logo">Zipity</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <!-- THESE ARE JUST EXAMPLES - REPLACE -->
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </header>
+    <main>{{content}}</main>
+  </body>
+</html>
