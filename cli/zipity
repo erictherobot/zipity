@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Run the Zipity CLI using cargo
+cargo run --bin cli -- "$@"
