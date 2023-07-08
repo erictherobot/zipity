@@ -10,7 +10,7 @@ use std::path::PathBuf;
 
 fn main() {
     let app = App::new("Zipity")
-        .version("0.0.1-alpha.1")
+        .version("0.0.1-alpha.2")
         .author("Eric David Smith")
         .about("A command-line tool for Zipity")
         .subcommand(
@@ -66,7 +66,7 @@ fn main() {
             );
             readme_file
                 .write_all(
-                    b"# My Zipity Project\n\nWelcome to my Zipity project!\n\n## Usage\n\n```bash\n./cli/zipity <SUBCOMMAND> [OPTIONS]\n```\n\n## Help\n\n```text\nZipity 0.0.1-alpha.1\nEric David Smith\nA command-line tool for Zipity\n\nUSAGE:\n    cli [SUBCOMMAND]\n\nFLAGS:\n    -h, --help       Prints help information\n    -V, --version    Prints version information\n\nSUBCOMMANDS:\n    add      Adds a new component to the project\n    build\n    help     Prints this message or the help of the given subcommand(s)\n    init\n    serve\n```"
+                    b"# My Zipity Project\n\nWelcome to my Zipity project!\n\n## Usage\n\n```bash\n./cli/zipity <SUBCOMMAND> [OPTIONS]\n```\n\n## Help\n\n```text\nZipity 0.0.1-alpha.2\nEric David Smith\nA command-line tool for Zipity\n\nUSAGE:\n    cli [SUBCOMMAND]\n\nFLAGS:\n    -h, --help       Prints help information\n    -V, --version    Prints version information\n\nSUBCOMMANDS:\n    add      Adds a new component to the project\n    build\n    help     Prints this message or the help of the given subcommand(s)\n    init\n    serve\n```"
                 )
                 .expect("Failed to write to README.md");
 

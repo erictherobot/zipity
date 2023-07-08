@@ -26,7 +26,7 @@ Create your project:
 ## Help
 
 ```text
-Zipity 0.0.1-alpha.1
+Zipity 0.0.1-alpha.2
 Eric David Smith
 A command-line tool for Zipity
 
