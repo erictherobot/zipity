@@ -9,4 +9,25 @@ documentation = "https://docs.rs/zipity"
 homepage = "https://ericdavidsmith.com"
 repository = "https://github.com/erictherobot/zipity"
 
+[[bin]]
+name = "cli"
+path = "cli/main.rs"
+
 [dependencies]
+actix-web = "4.0.0-beta.8"
+actix-files = "0.6.0"
+actix-web-httpauth = "0.8.0"
+askama = "0.10"
+pulldown-cmark = "0.8"
+serde = "1.0"
+serde_yaml = "0.8"
+serde_json = "1.0"
+clap = "2.33"
+env_logger = "0.9"
+sitemap = "0.4.1"
+tokio = { version = "1", features = ["full"] }
+url = "2.2.2"
+chrono = "0.4"
+slug = "0.1"
+
+
